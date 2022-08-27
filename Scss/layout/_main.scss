@@ -1,0 +1,100 @@
+@use "../util/index2" as *;
+
+main {
+  .landing {
+    margin-top: rem(-96.5);
+    background: url(/images/mobile/image-hero.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    @include breakpoint(large) {
+      background-image: url(/images/desktop/image-hero.jpg);
+      margin-top: rem(-136.5);
+      height: rem(650);
+    }
+    display: flex;
+    align-items: center;
+    //
+    .main__container {
+      div {
+        @include breakpoint(large) {
+          // width: rem(652);
+          width: 45%;
+        }
+        width: 100%;
+        outline: rem(4) solid $white;
+        height: auto;
+        p {
+          @include breakpoint(large) {
+            font-size: rem(50);
+            font-weight: $sec-weight;
+          }
+          font-family: $sec-family;
+          padding: rem(30);
+          font-size: rem(40);
+          color: $white;
+          text-transform: uppercase;
+          line-height: 1.2;
+        }
+      }
+    }
+  }
+}
+//section TWO
+main {
+  .leader {
+    height: 100vh;
+    padding: rem(60) 0;
+    overflow: hidden;
+  }
+  .main__container {
+    @include breakpoint(large) {
+      display: grid;
+      grid-template-columns: 1fr auto;
+    }
+    .leader__image {
+      @include breakpoint(large) {
+        background-image: url(/images/desktop/image-interactive.jpg);
+        height: rem(500);
+        width: 100%;
+      }
+      background-image: url(/images/mobile/image-interactive.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100%;
+      min-height: rem(221);
+      text-align: center;
+    }
+    .leader__info {
+      @include breakpoint(large) {
+        width: rem(540);
+        height: rem(400);
+        text-align: left;
+        background-color: white;
+        align-self: flex-end;
+        margin-left: rem(-161);
+        margin-bottom: rem(-80);
+        padding: rem(95);
+      }
+      padding: rem(15);
+      text-align: center;
+      margin-top: rem(20);
+      h1 {
+        font-family: $sec-family;
+        font-size: rem(32);
+        text-transform: uppercase;
+        font-weight: $sec-weight;
+      }
+      p {
+        @include breakpoint(large) {
+          font-size: rem(13);
+        }
+        font-size: rem(15);
+        color: $dark-gray;
+        font-weight: $sec-weight;
+        line-height: 1.8;
+      }
+    }
+  }
+}

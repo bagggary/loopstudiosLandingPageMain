@@ -272,6 +272,7 @@ a:active {
 
 body {
   font-family: "Alata", sans-serif;
+  height: 100vh;
 }
 
 .container {
@@ -291,37 +292,29 @@ body {
   }
 }
 
-header::after {
-  content: "";
-  position: absolute;
-  background-image: url(/images/mobile/image-hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 100vh;
-  width: 100%;
-  top: 0;
-  z-index: -1;
+.main__container {
+  width: 86%;
+  margin: 0 auto;
 }
 @media (min-width: 50em) {
-  header::after {
-    background-image: url(/images/desktop/image-hero.jpg);
-    background-size: cover;
-    background-position: center;
+  .main__container {
+    width: 69.375rem;
+    margin: 0 auto;
   }
 }
+
 header .container nav {
   display: none;
 }
 @media (min-width: 50em) {
   header .container nav {
     display: block;
+    z-index: 2;
   }
   header .container nav a {
     color: hsl(0deg, 0%, 100%);
-    padding: 10px;
-    margin: 0 25px;
+    padding: 0.625rem;
+    margin-left: 1.5625rem;
     position: relative;
     cursor: pointer;
   }
@@ -429,4 +422,114 @@ header .container .burger ul li {
 }
 header .container > a {
   z-index: 3;
+}
+
+main .landing {
+  margin-top: -6.03125rem;
+  background: url(/images/mobile/image-hero.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 50em) {
+  main .landing {
+    background-image: url(/images/desktop/image-hero.jpg);
+    margin-top: -8.53125rem;
+    height: 40.625rem;
+  }
+}
+main .landing .main__container div {
+  width: 100%;
+  outline: 0.25rem solid hsl(0deg, 0%, 100%);
+  height: auto;
+}
+@media (min-width: 50em) {
+  main .landing .main__container div {
+    width: 45%;
+  }
+}
+main .landing .main__container div p {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 1.875rem;
+  font-size: 2.5rem;
+  color: hsl(0deg, 0%, 100%);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+@media (min-width: 50em) {
+  main .landing .main__container div p {
+    font-size: 3.125rem;
+    font-weight: 300;
+  }
+}
+
+main .leader {
+  height: 100vh;
+  padding: 3.75rem 0;
+  overflow: hidden;
+}
+@media (min-width: 50em) {
+  main .main__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr auto;
+    grid-template-columns: 1fr auto;
+  }
+}
+main .main__container .leader__image {
+  background-image: url(/images/mobile/image-interactive.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  min-height: 13.8125rem;
+  text-align: center;
+}
+@media (min-width: 50em) {
+  main .main__container .leader__image {
+    background-image: url(/images/desktop/image-interactive.jpg);
+    height: 31.25rem;
+    width: 100%;
+  }
+}
+main .main__container .leader__info {
+  padding: 0.9375rem;
+  text-align: center;
+  margin-top: 1.25rem;
+}
+@media (min-width: 50em) {
+  main .main__container .leader__info {
+    width: 33.75rem;
+    height: 25rem;
+    text-align: left;
+    background-color: white;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin-left: -10.0625rem;
+    margin-bottom: -5rem;
+    padding: 5.9375rem;
+  }
+}
+main .main__container .leader__info h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+main .main__container .leader__info p {
+  font-size: 0.9375rem;
+  color: hsl(0deg, 0%, 55%);
+  font-weight: 300;
+  line-height: 1.8;
+}
+@media (min-width: 50em) {
+  main .main__container .leader__info p {
+    font-size: 0.8125rem;
+  }
 }

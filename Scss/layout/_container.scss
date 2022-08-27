@@ -10,3 +10,11 @@
   display: flex;
   justify-content: space-between;
 }
+.main__container {
+  @include breakpoint(large) {
+    width: rem(1110);
+    margin: 0 auto;
+  }
+  width: 86%;
+  margin: 0 auto;
+}
