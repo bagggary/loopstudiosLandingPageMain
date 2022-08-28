@@ -489,7 +489,7 @@ main .leader {
   }
 }
 main .main__container .leader__image {
-  background-image: url("/images/mobile/image-interactive.jpg");
+  background-image: url("./images/mobile/image-interactive.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -498,7 +498,7 @@ main .main__container .leader__image {
 }
 @media (min-width: 50em) {
   main .main__container .leader__image {
-    background-image: url("/images/desktop/image-interactive.jpg");
+    background-image: url("./images/desktop/image-interactive.jpg");
     height: 31.25rem;
     width: 100%;
   }
@@ -672,99 +672,99 @@ main .main__container .leader__info p {
   }
 }
 .creation__grid div:first-child {
-  background-image: url("/images/mobile/image-deep-earth.jpg");
+  background-image: url(".images/mobile/image-deep-earth.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:first-child {
-    background-image: url("/images/desktop/image-deep-earth.jpg");
+    background-image: url("./images/desktop/image-deep-earth.jpg");
   }
   .creation__grid div:first-child:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("/images/desktop/image-deep-earth.jpg");
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("/images/desktop/image-deep-earth.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("./images/desktop/image-deep-earth.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("./images/desktop/image-deep-earth.jpg");
   }
 }
 .creation__grid div:nth-child(2) {
-  background-image: url("/images/mobile/image-night-arcade.jpg");
+  background-image: url("./images/mobile/image-night-arcade.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:nth-child(2) {
-    background-image: url("/images/desktop/image-night-arcade.jpg");
+    background-image: url("./images/desktop/image-night-arcade.jpg");
   }
   .creation__grid div:nth-child(2):hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("/images/desktop/image-night-arcade.jpg");
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("/images/desktop/image-night-arcade.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("./images/desktop/image-night-arcade.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("./images/desktop/image-night-arcade.jpg");
   }
 }
 .creation__grid div:nth-child(3) {
-  background-image: url("/images/mobile/image-soccer-team.jpg");
+  background-image: url("./images/mobile/image-soccer-team.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:nth-child(3) {
-    background-image: url("/images/desktop/image-soccer-team.jpg");
+    background-image: url("./images/desktop/image-soccer-team.jpg");
   }
   .creation__grid div:nth-child(3):hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("/images/desktop/image-soccer-team.jpg");
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("/images/desktop/image-soccer-team.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("./images/desktop/image-soccer-team.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("./images/desktop/image-soccer-team.jpg");
   }
 }
 .creation__grid div:nth-child(4) {
-  background-image: url("/images/mobile/image-grid.jpg");
+  background-image: url("./images/mobile/image-grid.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:nth-child(4) {
-    background-image: url("/images/desktop/image-grid.jpg");
+    background-image: url("./images/desktop/image-grid.jpg");
   }
   .creation__grid div:nth-child(4):hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("/images/desktop/image-grid.jpg");
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("/images/desktop/image-grid.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("./images/desktop/image-grid.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./images/desktop/image-grid.jpg");
   }
 }
 .creation__grid div:nth-child(5) {
-  background-image: url("/images/mobile/image-from-above.jpg");
+  background-image: url("./images/mobile/image-from-above.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:nth-child(5) {
-    background-image: url("/images/desktop/image-from-above.jpg");
+    background-image: url("./images/desktop/image-from-above.jpg");
   }
   .creation__grid div:nth-child(5):hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("/images/desktop/image-from-above.jpg");
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("/images/desktop/image-from-above.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("./images/desktop/image-from-above.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("./images/desktop/image-from-above.jpg");
   }
 }
 .creation__grid div:nth-child(6) {
-  background-image: url("/images/mobile/image-pocket-borealis.jpg");
+  background-image: url("./images/mobile/image-pocket-borealis.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:nth-child(6) {
-    background-image: url("/images/desktop/image-pocket-borealis.jpg");
+    background-image: url("./images/desktop/image-pocket-borealis.jpg");
   }
   .creation__grid div:nth-child(6):hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("/images/desktop/image-pocket-borealis.jpg");
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("/images/desktop/image-pocket-borealis.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("./images/desktop/image-pocket-borealis.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("./images/desktop/image-pocket-borealis.jpg");
   }
 }
 .creation__grid div:nth-child(7) {
-  background-image: url("/images/mobile/image-curiosity.jpg");
+  background-image: url("./images/mobile/image-curiosity.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:nth-child(7) {
-    background-image: url("/images/desktop/image-curiosity.jpg");
+    background-image: url("./images/desktop/image-curiosity.jpg");
   }
   .creation__grid div:nth-child(7):hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("/images/desktop/image-curiosity.jpg");
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("/images/desktop/image-curiosity.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("./images/desktop/image-curiosity.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("./images/desktop/image-curiosity.jpg");
   }
 }
 .creation__grid div:last-child {
-  background-image: url("/images/mobile/image-fisheye.jpg");
+  background-image: url("./images/mobile/image-fisheye.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:last-child {
-    background-image: url("/images/desktop/image-fisheye.jpg");
+    background-image: url("./images/desktop/image-fisheye.jpg");
   }
   .creation__grid div:last-child:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("/images/desktop/image-fisheye.jpg");
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("/images/desktop/image-fisheye.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("./images/desktop/image-fisheye.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("./images/desktop/image-fisheye.jpg");
   }
 }
 
