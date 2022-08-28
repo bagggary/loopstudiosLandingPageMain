@@ -426,7 +426,7 @@ header .container > a {
 
 main .landing {
   margin-top: -6.03125rem;
-  background: url(/images/mobile/image-hero.jpg) no-repeat;
+  background: url("/images/mobile/image-hero.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -440,7 +440,7 @@ main .landing {
 }
 @media (min-width: 50em) {
   main .landing {
-    background-image: url(/images/desktop/image-hero.jpg);
+    background-image: url("/images/desktop/image-hero.jpg");
     margin-top: -8.53125rem;
     height: 40.625rem;
   }
@@ -489,7 +489,7 @@ main .leader {
   }
 }
 main .main__container .leader__image {
-  background-image: url(/images/mobile/image-interactive.jpg);
+  background-image: url("/images/mobile/image-interactive.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -498,7 +498,7 @@ main .main__container .leader__image {
 }
 @media (min-width: 50em) {
   main .main__container .leader__image {
-    background-image: url(/images/desktop/image-interactive.jpg);
+    background-image: url("/images/desktop/image-interactive.jpg");
     height: 31.25rem;
     width: 100%;
   }
@@ -672,99 +672,99 @@ main .main__container .leader__info p {
   }
 }
 .creation__grid div:first-child {
-  background-image: url(/images/mobile/image-deep-earth.jpg);
+  background-image: url("/images/mobile/image-deep-earth.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:first-child {
-    background-image: url(/images/desktop/image-deep-earth.jpg);
+    background-image: url("/images/desktop/image-deep-earth.jpg");
   }
   .creation__grid div:first-child:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url(/images/desktop/image-deep-earth.jpg);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url(/images/desktop/image-deep-earth.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("/images/desktop/image-deep-earth.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("/images/desktop/image-deep-earth.jpg");
   }
 }
 .creation__grid div:nth-child(2) {
-  background-image: url(/images/mobile/image-night-arcade.jpg);
+  background-image: url("/images/mobile/image-night-arcade.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:nth-child(2) {
-    background-image: url(/images/desktop/image-night-arcade.jpg);
+    background-image: url("/images/desktop/image-night-arcade.jpg");
   }
   .creation__grid div:nth-child(2):hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url(/images/desktop/image-night-arcade.jpg);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url(/images/desktop/image-night-arcade.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("/images/desktop/image-night-arcade.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("/images/desktop/image-night-arcade.jpg");
   }
 }
 .creation__grid div:nth-child(3) {
-  background-image: url(/images/mobile/image-soccer-team.jpg);
+  background-image: url("/images/mobile/image-soccer-team.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:nth-child(3) {
-    background-image: url(/images/desktop/image-soccer-team.jpg);
+    background-image: url("/images/desktop/image-soccer-team.jpg");
   }
   .creation__grid div:nth-child(3):hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url(/images/desktop/image-soccer-team.jpg);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url(/images/desktop/image-soccer-team.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("/images/desktop/image-soccer-team.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("/images/desktop/image-soccer-team.jpg");
   }
 }
 .creation__grid div:nth-child(4) {
-  background-image: url(/images/mobile/image-grid.jpg);
+  background-image: url("/images/mobile/image-grid.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:nth-child(4) {
-    background-image: url(/images/desktop/image-grid.jpg);
+    background-image: url("/images/desktop/image-grid.jpg");
   }
   .creation__grid div:nth-child(4):hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url(/images/desktop/image-grid.jpg);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/images/desktop/image-grid.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("/images/desktop/image-grid.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("/images/desktop/image-grid.jpg");
   }
 }
 .creation__grid div:nth-child(5) {
-  background-image: url(/images/mobile/image-from-above.jpg);
+  background-image: url("/images/mobile/image-from-above.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:nth-child(5) {
-    background-image: url(/images/desktop/image-from-above.jpg);
+    background-image: url("/images/desktop/image-from-above.jpg");
   }
   .creation__grid div:nth-child(5):hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url(/images/desktop/image-from-above.jpg);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url(/images/desktop/image-from-above.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("/images/desktop/image-from-above.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("/images/desktop/image-from-above.jpg");
   }
 }
 .creation__grid div:nth-child(6) {
-  background-image: url(/images/mobile/image-pocket-borealis.jpg);
+  background-image: url("/images/mobile/image-pocket-borealis.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:nth-child(6) {
-    background-image: url(/images/desktop/image-pocket-borealis.jpg);
+    background-image: url("/images/desktop/image-pocket-borealis.jpg");
   }
   .creation__grid div:nth-child(6):hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url(/images/desktop/image-pocket-borealis.jpg);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url(/images/desktop/image-pocket-borealis.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("/images/desktop/image-pocket-borealis.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("/images/desktop/image-pocket-borealis.jpg");
   }
 }
 .creation__grid div:nth-child(7) {
-  background-image: url(/images/mobile/image-curiosity.jpg);
+  background-image: url("/images/mobile/image-curiosity.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:nth-child(7) {
-    background-image: url(/images/desktop/image-curiosity.jpg);
+    background-image: url("/images/desktop/image-curiosity.jpg");
   }
   .creation__grid div:nth-child(7):hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url(/images/desktop/image-curiosity.jpg);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url(/images/desktop/image-curiosity.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("/images/desktop/image-curiosity.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("/images/desktop/image-curiosity.jpg");
   }
 }
 .creation__grid div:last-child {
-  background-image: url(/images/mobile/image-fisheye.jpg);
+  background-image: url("/images/mobile/image-fisheye.jpg");
 }
 @media (min-width: 50em) {
   .creation__grid div:last-child {
-    background-image: url(/images/desktop/image-fisheye.jpg);
+    background-image: url("/images/desktop/image-fisheye.jpg");
   }
   .creation__grid div:last-child:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url(/images/desktop/image-fisheye.jpg);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url(/images/desktop/image-fisheye.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.4))), url("/images/desktop/image-fisheye.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("/images/desktop/image-fisheye.jpg");
   }
 }
 
@@ -858,21 +858,21 @@ footer .footer__two .social a {
   position: relative;
 }
 footer .footer__two .social a:hover::after {
-  width: 20px;
+  width: 1.25rem;
 }
 footer .footer__two .social a i {
   color: hsl(0deg, 0%, 100%);
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 footer .footer__two .social a:not(:last-child) {
-  margin-right: 16px;
+  margin-right: 2rem;
 }
 footer .footer__two .social a::after {
   content: "";
   position: absolute;
-  bottom: -5px;
-  height: 2px;
-  width: 0px;
+  bottom: -0.3125rem;
+  height: 0.125rem;
+  width: 0;
   background-color: hsl(0deg, 0%, 100%);
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -891,7 +891,7 @@ footer .attribution {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 footer .attribution a {
   font-family: "Josefin Sans", sans-serif;
