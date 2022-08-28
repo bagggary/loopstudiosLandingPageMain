@@ -47,6 +47,9 @@ main {
     height: 100vh;
     padding: rem(60) 0;
     overflow: hidden;
+    @include breakpoint(large) {
+      padding: rem(100) 0;
+    }
   }
   .main__container {
     @include breakpoint(large) {
@@ -95,6 +98,196 @@ main {
         font-weight: $sec-weight;
         line-height: 1.8;
       }
+    }
+  }
+}
+.creation {
+  .heading {
+    @include breakpoint(large) {
+      display: flex;
+      justify-content: space-between;
+    }
+    h1 {
+      font-family: $sec-family;
+      font-size: rem(32);
+      text-transform: uppercase;
+      font-weight: $sec-weight;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    button {
+      @include breakpoint(large) {
+        display: block;
+        text-transform: uppercase;
+        font-size: rem(15);
+        letter-spacing: rem(5);
+        background-color: $white;
+        border: 2px solid $very-dark-gray;
+        padding: rem(14) rem(42) rem(13) rem(38);
+        &:hover {
+          background-color: $black;
+          color: $white;
+          transition: 0.3s;
+        }
+      }
+      display: none;
+    }
+  }
+  .btn {
+    @include breakpoint(large) {
+      display: none;
+    }
+    text-align: center;
+    button {
+      margin-inline: auto;
+      margin-top: rem(32);
+      text-transform: uppercase;
+      font-size: rem(15);
+      letter-spacing: rem(5);
+      background-color: $white;
+      border: 2px solid $very-dark-gray;
+      padding: rem(14) rem(42) rem(13) rem(38);
+    }
+  }
+}
+.creation__grid {
+  margin-top: rem(42);
+  @include breakpoint(large) {
+    margin-top: rem(83);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    grid-gap: rem(30);
+  }
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-gap: rem(26);
+  div {
+    @include breakpoint(large) {
+      width: rem(256);
+      height: rem(450);
+      padding: rem(355) rem(55) rem(40) rem(43);
+      &:hover {
+        color: $black;
+        background-image: linear-gradient(
+          rgba(255, 255, 255, 0.5),
+          rgba(255, 255, 255, 0.5)
+        );
+      }
+    }
+    width: 100%;
+    height: rem(118);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: $white;
+    font-family: $sec-family;
+    font-weight: $sec-weight;
+    text-transform: uppercase;
+    font-size: rem(26);
+    padding: rem(51) rem(157) 0 rem(29);
+    &:first-child {
+      @include breakpoint(large) {
+        background-image: url(/images/desktop/image-deep-earth.jpg);
+        &:hover {
+          background-image: linear-gradient(
+              rgba(255, 255, 255, 0.3),
+              rgba(255, 255, 255, 0.4)
+            ),
+            url(/images/desktop/image-deep-earth.jpg);
+        }
+      }
+      background-image: url(/images/mobile/image-deep-earth.jpg);
+    }
+    &:nth-child(2) {
+      @include breakpoint(large) {
+        background-image: url(/images/desktop/image-night-arcade.jpg);
+        &:hover {
+          background-image: linear-gradient(
+              rgba(255, 255, 255, 0.3),
+              rgba(255, 255, 255, 0.4)
+            ),
+            url(/images/desktop/image-night-arcade.jpg);
+        }
+      }
+      background-image: url(/images/mobile/image-night-arcade.jpg);
+    }
+    &:nth-child(3) {
+      @include breakpoint(large) {
+        background-image: url(/images/desktop/image-soccer-team.jpg);
+        &:hover {
+          background-image: linear-gradient(
+              rgba(255, 255, 255, 0.3),
+              rgba(255, 255, 255, 0.4)
+            ),
+            url(/images/desktop/image-soccer-team.jpg);
+        }
+      }
+      background-image: url(/images/mobile/image-soccer-team.jpg);
+    }
+    &:nth-child(4) {
+      @include breakpoint(large) {
+        background-image: url(/images/desktop/image-grid.jpg);
+        &:hover {
+          background-image: linear-gradient(
+              rgba(255, 255, 255, 0.5),
+              rgba(255, 255, 255, 0.5)
+            ),
+            url(/images/desktop/image-grid.jpg);
+        }
+      }
+      background-image: url(/images/mobile/image-grid.jpg);
+    }
+    &:nth-child(5) {
+      @include breakpoint(large) {
+        background-image: url(/images/desktop/image-from-above.jpg);
+        &:hover {
+          background-image: linear-gradient(
+              rgba(255, 255, 255, 0.3),
+              rgba(255, 255, 255, 0.4)
+            ),
+            url(/images/desktop/image-from-above.jpg);
+        }
+      }
+      background-image: url(/images/mobile/image-from-above.jpg);
+    }
+    &:nth-child(6) {
+      @include breakpoint(large) {
+        background-image: url(/images/desktop/image-pocket-borealis.jpg);
+        &:hover {
+          background-image: linear-gradient(
+              rgba(255, 255, 255, 0.3),
+              rgba(255, 255, 255, 0.4)
+            ),
+            url(/images/desktop/image-pocket-borealis.jpg);
+        }
+      }
+      background-image: url(/images/mobile/image-pocket-borealis.jpg);
+    }
+    &:nth-child(7) {
+      @include breakpoint(large) {
+        background-image: url(/images/desktop/image-curiosity.jpg);
+        &:hover {
+          background-image: linear-gradient(
+              rgba(255, 255, 255, 0.3),
+              rgba(255, 255, 255, 0.4)
+            ),
+            url(/images/desktop/image-curiosity.jpg);
+        }
+      }
+      background-image: url(/images/mobile/image-curiosity.jpg);
+    }
+    &:last-child {
+      @include breakpoint(large) {
+        background-image: url(/images/desktop/image-fisheye.jpg);
+        &:hover {
+          background-image: linear-gradient(
+              rgba(255, 255, 255, 0.3),
+              rgba(255, 255, 255, 0.4)
+            ),
+            url(/images/desktop/image-fisheye.jpg);
+        }
+      }
+      background-image: url(/images/mobile/image-fisheye.jpg);
     }
   }
 }
